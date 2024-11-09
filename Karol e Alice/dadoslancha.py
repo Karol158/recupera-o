@@ -1,0 +1,20 @@
+from Lancha import Lancha
+
+lancha1=Lancha("Flexboa","pesca","BBBHHHHJ7897",2023,"Branca",600.000,"2 horas")
+lancha2=Lancha(" Magna","esportivas","LLJKKHJH7678",2024,"Branca",700.000,"24 horas")
+
+print("Marca:"+lancha1.getMarca())
+print("Modelo:"+lancha1.getModelo())
+print("Numero de chassi:"+lancha1.getNumerocha())
+print("Ano de fabricação:"+ str (lancha1.getAno()))
+print(f"Cor:{lancha1.getCor()}/Ano de fabricação:  {(lancha1.getAno())}")
+print("Preço:"+ str (lancha1.getPreco()))
+print("Quilometragem/Horas de uso:"+lancha1.getHoras())
+print("")
+print("Marca:"+lancha2.getMarca())
+print("Modelo:"+lancha2.getModelo())
+print("Numero de chassi:"+lancha2.getNumerocha())
+print("Ano de fabricação:"+ str (lancha2.getAno()))
+print(f"Cor:{lancha2.getCor()}/Ano de fabricação:  {(lancha2.getAno())}")
+print("Preço:"+ str (lancha2.getPreco()))
+print("Quilometragem/Horas de uso:"+lancha2.getHoras())

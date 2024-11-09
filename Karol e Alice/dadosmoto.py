@@ -1,0 +1,22 @@
+from Moto import Moto
+
+moto1=Moto("Honda","esportiva","GHGHJGG3453",2022,"vermelha",40.000,"123cc","10.000 km")
+moto2=Moto("YAMAHA","esportiva","HHRRYYU45465",2019,"preta",30.000,"102cc","10.000km")
+
+print("Marca:"+moto1.getMarca())
+print("Modelo:"+moto1.getModelo())
+print("Numero de chassi:"+moto1.getNumerocha())
+print("Ano de fabricação:"+ str (moto1.getAno()))
+print(f"Cor:{moto1.getCor()}/Ano de fabricação:  {(moto1.getAno())}")
+print("Preço:"+ str (moto1.getPreco()))
+print("Potencia/Cilindrada:"+moto1.getCilindrada())
+print("Quilometragem/Horas de uso:"+moto1.getQuilometragem())
+print("")
+print("Marca:"+moto2.getMarca())
+print("Modelo:"+moto2.getModelo())
+print("Numero de chassi:"+moto2.getNumerocha())
+print("Ano de fabricação:"+ str (moto2.getAno()))
+print(f"Cor:{moto2.getCor()}/Ano de fabricação:  {(moto2.getAno())}")
+print("Preço:"+ str (moto2.getPreco()))
+print("Potencia/Cilindrada:"+moto2.getCilindrada())
+print("Quilometragem/Horas de uso:"+moto2.getQuilometragem())

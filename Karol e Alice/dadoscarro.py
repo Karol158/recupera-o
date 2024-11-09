@@ -1,0 +1,21 @@
+from Carro import Carro
+
+carro1=Carro("Mercedez Bens","esportivo","DJASDJ92034293DM",2010,"preto",1000.000,"200cv","180km")
+carro2=Carro("Hilux","caminhonete","BCHFJF323232323",2021,"prata",200.000,"300cv","500.000km")
+
+print("Marca:"+carro1.getMarca())
+print("Modelo:"+carro1.getModelo())
+print("Numero de chassi:"+carro1.getNumerocha())
+print(f"Cor:{carro1.getCor()}/Ano de fabricação:  {(carro1.getAno())}")
+print("Preço:"+ str (carro1.getPreco()))
+print(carro1.getPotencia())
+print("Quilometragem/Horas de uso:"+carro1.getQuilometragem())
+print("")
+print("Marca:"+carro2.getMarca())
+print("Modelo:"+carro2.getModelo())
+print("Numero de chassi:"+carro2.getNumerocha())
+print("Ano de fabricação:"+ str (carro2.getAno()))
+print(f"Cor:{carro2.getCor()}/Ano de fabricação:  {(carro2.getAno())}")
+print("Preço:"+ str (carro2.getPreco()))
+print(carro2.getPotencia())
+print("Quilometragem/Horas de uso:"+carro2.getQuilometragem())
